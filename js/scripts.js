@@ -33,4 +33,3 @@ var akana = function() {
     if(female.checked && year> 0 && month > 0 && month < 12 && day > 0 && day < 32) {
         output.innerHTML = "Maakayé" + name + " you were born on a " + days[results] + " and your Akan name is " + femaleNames[results];
     }
-}

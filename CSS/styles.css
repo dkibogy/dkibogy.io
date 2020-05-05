@@ -1,26 +1,46 @@
 body{
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/images/img.jpg);
+    background-image: url(/images/akan.jpg);
+    ;
 }
-h1,
+h1 { 
+    text-align: center;
+    font-family: fantasy;
+    font-size: larger;
+    color: black;
+}
 h2 {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy;
     font-size: large;
     color: lightcoral;
     margin-top: auto;
     padding-bottom: 2px;
 
 }
-h2 {
-    float: right;
+p {
+    font-family: fantasy;
 }
+
 .card-text {
     float: right;
 }
 .page-footer{
     background-color: lightcoral;
 }
-
+.card {
+    background-origin: padding-box;
+}
+.form {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.overlay {
+    background-color: darkgrey;
+    margin-left: 25%;
+    margin-right: 16%;
+    opacity: 0.9;
+    border-radius: 10px;
+}

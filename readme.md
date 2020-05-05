@@ -9,6 +9,8 @@ Daisy Kibogy
 
 This is a web application that allows users to get an Akan name dependig on their date of birth and gender.
 
+![alt text](images/screenshot.jpg)
+
 
 ## Live page
 
